@@ -1,0 +1,45 @@
+html {
+	padding: 10px;
+	font-family: Verdana, sans-serif;
+}
+
+.post-box {
+    margin: 0 10px 10px 0;
+    height: auto;
+    max-width: 200px;
+    background: orange;
+    min-height: 370px;
+    position: relative;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+}
+
+.post-box img {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.post-box p.details { 
+	text-align: left;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.post-box a {
+	display: inline-block;
+	background: #32bbb6;
+	color: white;
+	margin-top: 5px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.post-box a:hover {
+	background: white;
+	color: orange;
+}
